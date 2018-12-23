@@ -4,7 +4,7 @@ package com.github.dataprocessor;
  * 数据处理器，此项目的核心接口
  *
  * @author huangxuyang
- * @date 2018/10/27
+ * date 2018/10/27
  */
 public interface DataProcessor {
     /**

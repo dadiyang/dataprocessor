@@ -23,6 +23,7 @@ public class RetryUtil {
      * @param callable 被执行的方法
      * @param <T>      被执行方法的返回值
      * @return 被执行的方法的返回值
+     * @throws Exception 最后一次执行被执行方法的时候抛出的异常
      */
     public static <T> T retryCallNullable(Callable<T> callable) throws Exception {
         return retryCall(callable, 3, true);

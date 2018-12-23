@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  * 如果 task 被拒绝，则通过阻塞方式加入到队列中，以此减慢生产者的速度
  *
  * @author huangxuyang-sz
- * @date 2018/07/19
+ * date 2018/07/19
  */
 public class BlockRejectedExecutionHandler implements RejectedExecutionHandler {
     private static final Logger logger = LoggerFactory.getLogger(BlockRejectedExecutionHandler.class);

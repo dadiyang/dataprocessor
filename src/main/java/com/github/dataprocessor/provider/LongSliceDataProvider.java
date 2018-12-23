@@ -11,7 +11,7 @@ import java.util.Set;
  *
  * @param <T> 数据类型
  * @author huangxuyang
- * @date 2018/10/27
+ * date 2018/10/27
  */
 public abstract class LongSliceDataProvider<T> implements DataProvider<T, Long> {
     private long min;

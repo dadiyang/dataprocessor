@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  *
  * @param <S> 分片类型
  * @author huangxuyang
- * @date 2018/10/26
+ * date 2018/10/26
  */
 public class DefaultSliceRecorder<S> implements SliceRecorder<S> {
     private static final Logger logger = LoggerFactory.getLogger(DefaultSliceParser.class);

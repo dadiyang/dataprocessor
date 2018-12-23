@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * @param <S> 分片的类型，注意：这个类型必须实现 equals和hashCode方法，否则断点续传功能无法使用
  * @author huangxuyang
- * @date 2018/10/26
+ * date 2018/10/26
  */
 public class Slice<S> {
     private S begin;

@@ -19,7 +19,7 @@ import static org.junit.Assert.assertTrue;
  * 测试正常处理流程
  *
  * @author huangxuyang
- * @date 2018/10/28
+ * date 2018/10/28
  */
 public class ProcessTest {
     private List<Integer> source;

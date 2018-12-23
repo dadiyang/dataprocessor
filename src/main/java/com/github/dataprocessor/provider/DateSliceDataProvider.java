@@ -15,7 +15,7 @@ import java.util.Set;
  *
  * @param <T> 数据类型
  * @author huangxuyang
- * @date 2018/10/27
+ * date 2018/10/27
  */
 public abstract class DateSliceDataProvider<T> implements DataProvider<T, Date> {
     private Date min;
@@ -49,6 +49,7 @@ public abstract class DateSliceDataProvider<T> implements DataProvider<T, Date> 
      * @param min     最小值（开始时间）
      * @param max     最大值（结束时间）
      * @param spanDay 时间间隔（单位：天）必须大于0
+     * @param ordered 是否支持按顺序遍历分片
      * @throws IllegalArgumentException 最小时间不小于最大时间或者时间间隔小于等于0时抛出
      */
     protected DateSliceDataProvider(Date min, Date max, int spanDay, boolean ordered) {

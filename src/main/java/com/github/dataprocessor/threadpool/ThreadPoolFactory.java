@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
  * 线程池工厂接口
  *
  * @author huangxuyang
- * @date 2018/10/28
+ * date 2018/10/28
  */
 public interface ThreadPoolFactory {
     /**

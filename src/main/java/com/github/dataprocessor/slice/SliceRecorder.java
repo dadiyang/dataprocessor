@@ -7,7 +7,7 @@ import java.util.Set;
  *
  * @param <S> 分片的类型
  * @author huangxuyang
- * @date 2018/10/26
+ * date 2018/10/26
  */
 public interface SliceRecorder<S> {
 

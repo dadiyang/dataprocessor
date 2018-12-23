@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * 线程工厂为每个线程命名
  *
  * @author huangxuyang
- * @date 2018/10/28
+ * date 2018/10/28
  */
 public class DefaultThreadPoolFactory implements ThreadPoolFactory {
     /**

@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
 /**
  * 数据处理器，继承数据处理器模板，将必须实现的三个方法委托给 DataProvider
  * <p>
- * 使用此数据处理器，必须提供 DataProvider<T, S> 接口的一个实现
+ * 使用此数据处理器，必须提供 DataProvider&lt;T, S&gt; 接口的一个实现
  * 这个接口封装你的分片规则、分页获取来源数据方式和将分批之后的资源处理到你的目标库的方式
  * <p>
  * 换句话说，你只需要实现分片、查询来源数据和写入目标库的方式，其他的事情都有框架进行处理
@@ -21,7 +21,7 @@ import java.util.concurrent.Callable;
  * @param <T> 被处理的对象类，如：商机
  * @param <S> 分片类，如：时间、id等
  * @author huangxuyang
- * @date 2018/10/27
+ * date 2018/10/27
  */
 public class DefaultDataProcessor<T, S> extends DataProcessorTemplate<T, S> {
     private final DataProvider<T, S> dataProvider;
